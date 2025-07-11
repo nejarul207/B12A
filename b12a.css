@@ -41,3 +41,35 @@ body {
       transform: scale(1.05);
       background: #0737d6;
     }
+    /* Banner */
+    .banner {
+      height: 100vh;
+      background: url('image/Hero-bg.png') center/cover no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      color: white;
+      text-align: center;
+    }
+
+    .banner h1 {
+      font-size: 3rem;
+      
+      color: #333;
+      margin-bottom: 1rem;
+      font-family: raleway, sans-serif;
+    }
+
+    .banner .focus-btn {
+      background: #4CAF50;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border-radius: 4px;
+      transition: all 0.3s ease;
+    }
+
+    .banner .focus-btn:hover {
+      background: rgba(11, 45, 236, 0.9);
+      transform: scale(1.05);
+    }
