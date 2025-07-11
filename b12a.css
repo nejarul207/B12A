@@ -1,0 +1,43 @@
+body {
+      margin: auto:
+      font-family: raleway, sans-serif;
+      background: rgba(215, 245, 242, 0.363);
+      
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    /* Navbar */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(0, 0, 0, 0);
+      padding: 1rem 2rem;
+      position: absolute;
+      width: 100%;
+      top: 0;
+      left: 1;
+      box-sizing: border-box;
+    
+    }
+
+    .navbar .logo {
+      color:  #4CAF50;
+      font-size: 1.5rem;
+    }
+
+    .navbar .signup-btn {
+      background: #4CAF50;
+      color: rgb(254, 254, 254);
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      transition: all 0.3s ease;
+    }
+
+    .navbar .signup-btn:hover {
+      transform: scale(1.05);
+      background: #0737d6;
+    }
