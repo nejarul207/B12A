@@ -248,4 +248,86 @@ body {
       font-weight: bold;
       color: #333;
     }
+    /* Get In Touch */
+   .contact-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 4rem 8%;
+      min-height: 100vh;
+      box-sizing: border-box;
+    }
+
+    .contact-left h2{
+      font-size: 97px;
+      font-weight: 900;
+      margin: 0;
+      line-height: 1.2;
+      
+      font-family: raleway, sans-serif;
+      /*font-weight: bold;*/
+    }
+
+    .contact-right {
+      flex: 1;
+      max-width: 600px;
+    }
+
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .contact-form label {
+      margin: 1rem 0 0.3rem;
+      font-size: 18px;
+      color:black;
+      font-family: sans-serif;
+      font-weight: 500;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      padding: 0.8rem;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      font-size: 20px;
+      font-family: sans-serif;
+      outline: none;
+    }
+
+    .contact-form textarea {
+      resize: vertical;
+    }
+
+    .contact-form button {
+      margin-top: 2rem;
+      background: #4CAF50; 
+      color: white;
+      border: none;
+      padding: 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+
+    .contact-form button:hover {
+      background: #4338ca;
+      transform: scale(1.02);
+    }
+
+    @media (max-width: 768px) {
+      .contact-section {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .contact-left {
+        margin-bottom: 2rem;
+      }
+
+      .contact-right {
+        width: 100%;
+      }}
 
