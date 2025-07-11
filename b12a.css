@@ -26,7 +26,8 @@ body {
 
     .navbar .logo {
       color:  #4CAF50;
-      font-size: 1.5rem;
+      font-size: 2rem;
+      font-weight: bold;
     }
 
     .navbar .signup-btn {
@@ -72,4 +73,57 @@ body {
     .banner .focus-btn:hover {
       background: rgba(11, 45, 236, 0.9);
       transform: scale(1.05);
+    }
+     /* Action Section */
+    .action {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      
+      padding: 2rem 4rem;
+      width: 100;
+    }
+
+    .action .text {
+      flex: 1;
+    }
+
+    .action .text h2 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+      font-family: raleway, sans-serif;
+    }
+
+    .action .text p {
+      margin-bottom: 1rem;
+      color: black;
+      font-family: raleway, sans-serif;
+    }
+
+    .action .text .launch-btn {
+      background: #4CAF50;
+      color: rgb(249, 251, 250);
+      padding: 0.75rem 1.5rem;
+      border-radius: 4px;
+      transition: all 0.3s ease;
+      display: inline-block;
+      font-family: raleway, sans-serif;
+    }
+
+    .action .text .launch-btn:hover {
+      background: #0056b3;
+      transform: scale(1.05);
+    }
+
+    .action .image {
+      flex: 1;
+      
+      text-align: right;
+    }
+
+    .action .image img {
+      max-width: 80%;
+      height: auto;
+      border-radius: 20px;
     }
